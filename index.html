@@ -20,6 +20,7 @@
    <link rel="stylesheet" href="css/base.css">  
    <link rel="stylesheet" href="css/main.css">
    <link rel="stylesheet" href="css/vendor.css">     
+   <link rel="stylesheet" type="text/css" href="css/animate.css">
 
    <!-- script
    ================================================== -->
@@ -76,7 +77,7 @@
 	   			</div>
 
 	   			<h5>Hello welcome to starry starry night.</h5>
-	   			<h1>How long haven't you looked up the sky?</h1>
+	   			<h1><span id="typer"></span></h1>
 
 	   			<a class="button stroke smoothscroll" href="#process" title="">Learn More</a>
 
@@ -725,6 +726,18 @@
    <script src="js/jquery-migrate-1.2.1.min.js"></script>
    <script src="js/plugins.js"></script>
    <script src="js/main.js"></script>
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+   <script src="js/typed.js"></script>
+   <script>
+      $(function(){
+          $("#typer").typed({
+            strings: ["How long haven't you look up the sky?^1000", "Star Signs Analyze^1000" ,"We have the passion for the sky.^1000"],
+            typeSpeed: 100,
+            loop: true,
+            startDelay: 100
+          });
+      });
+   </script>
 
 </body>
 
