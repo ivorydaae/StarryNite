@@ -194,3 +194,59 @@
     font-style: normal;
 }
 
+/*
+ * Noto Sans CJK TC
+================================================================================ */
+
+
+@font-face {
+    font-family: 'Noto Sans CJK TC Light';
+    src: url('../fonts/NotoSansCJKtc/NotoSansCJKtc-Light.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans CJK TC Regular';
+    src: url('../fonts/NotoSansCJKtc/NotoSansCJKtc-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Noto Sans CJK TC DemiLight';
+    src: url('../fonts/NotoSansCJKtc/NotoSansCJKtc-DemiLight.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Noto Sans CJK TC Thin';
+    src: url('../fonts/NotoSansCJKtc/NotoSansCJKtc-Thin.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans CJK TC Thin';
+    src: url('../fonts/NotoSansCJKtc/NotoSansCJKtc-Thin.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans CJK TC Medium';
+    src: url('../fonts/NotoSansCJKtc/NotoSansCJKtc-Medium.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Noto Sans CJK TC Bold';
+    src: url('../fonts/NotoSansCJKtc/NotoSansCJKtc-Bold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Noto Sans CJK TC Black';
+    src: url('../fonts/NotoSansCJKtc/NotoSansCJKtc-Black.otf');
+    font-weight: normal;
+    font-style: normal;
+}
