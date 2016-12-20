@@ -5,7 +5,7 @@
  *  url: styleshout.com
  *  01-11-2016
  * -------------------------------------------------------------------
- *
+ * 
  *	TOC:
  *	01. webfonts and iconfonts 
  *	02. base style overrides
@@ -1146,6 +1146,12 @@ a.menu-toggle {
  *
  * ------------------------------------------------------------------- 
  */
+/*#typer {
+	border: 1px solid #ffffff;
+	border-radius: 0;
+	padding: 10px 30px;
+	height: 100px;
+}*/
 
 #intro {
 	background: #14181E url(../images/star.jpg) no-repeat center;
@@ -2184,7 +2190,7 @@ footer ul li {
 	padding-left: 0;
 }
 .footer-main {
-	padding-top: 6.6rem;
+	padding-top: 2.6rem;
 	padding-bottom: 4.2rem;
 	background: #171b23;
 }
@@ -2286,6 +2292,9 @@ footer ul li {
 	}
 }
 @media only screen and (max-width:600px) {
+	.footer-main {
+		padding-top: 0px;
+	}
 	.footer-main .row {
 		max-width: 420px;
 	}
@@ -2442,7 +2451,14 @@ footer ul li {
 		 -o-transform: rotateY(0deg);
 			transform: rotateY(0deg);
 }
-
+.social-icon h3 {
+	font-size: 22px;
+	text-align: center;
+	font-family: "raleway-bold", sans-serif;
+	color: #ffffff;
+	font-style: normal;
+	margin-bottom: 2.1rem;
+}
 .social-icon > ul > li:hover a i {
     color: #fff;
     opacity: 1;
