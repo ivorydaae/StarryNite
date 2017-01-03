@@ -1,4 +1,4 @@
-/** 
+/*
  * =================================================================== 
  *
  *  Lhander v1.0 Main Stylesheet
@@ -62,6 +62,7 @@ html {
 	html {
 		font-size: 9.375px;
 	}
+
 }
 
 html, body {
@@ -2404,6 +2405,8 @@ footer ul li {
 .social-icon > ul > li {
     display: inline-block;
     margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .social-icon > ul > li > a {
@@ -2557,9 +2560,15 @@ footer ul li {
 	background-color: #ffffff; 
 	margin-left: 30px;
 	margin-right: 30px;
-	padding: 20px 0; 
-	border-radius: 5px;
-}
+	padding: 30px ; 
+	border-radius: 5px;	
+	/*position: relative;
+	display: inline;
+	display: inline-block;
+	float: center;
+	margin: 10%;
+	margin-bottom: 20px;
+*/}
 .count-title { 
 	font-size: 40px; 
 	font-weight: normal;  
@@ -2575,4 +2584,16 @@ footer ul li {
 	text-align: center; 
 }
 .fa-2x { margin: 0 auto; float: none; display: table; color: #4ad1e5; }
+
+.rect{
+	width:80%;
+
+}
+#score{
+
+	overflow: hidden;
+}
+#irish{
+	overflow: hidden;
+}
 /*# sourceMappingURL=main.css.map */
