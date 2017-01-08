@@ -1,4 +1,4 @@
-index.html 檔案 [換圖片的位置](https://github.com/wacamoto/StarryNite/blob/master/index.html#L306-L321)
+index.html 檔案 [更換圖片網址的位置](https://github.com/wacamoto/StarryNite/blob/master/index.html#L306-L321)
 
 ```html
 <div>
@@ -18,4 +18,3 @@ index.html 檔案 [換圖片的位置](https://github.com/wacamoto/StarryNite/bl
     </div>
 </div>
 ```
-
