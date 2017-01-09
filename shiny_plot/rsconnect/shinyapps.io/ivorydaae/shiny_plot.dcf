@@ -1,0 +1,9 @@
+name: shiny_plot
+account: ivorydaae
+server: shinyapps.io
+appId: 150057
+bundleId: 673912
+url: https://ivorydaae.shinyapps.io/shiny_plot/
+when: 1483982616.92422
+asMultiple: FALSE
+asStatic: FALSE

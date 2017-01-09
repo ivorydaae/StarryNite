@@ -6,7 +6,6 @@
 #
 
 library(shiny)
-system('./plotData.r')
 
 #get plot data
 allFile <- list.files('Daily_horoscope')
@@ -31,7 +30,7 @@ for(i in 1:12 ){
 
 #set all the data
 for(i in 1:length(allFile) ){
-  filepath <- paste0( 'Daily_horoscope\\',allFile[i] )
+  filepath <- paste0( 'Daily_horoscope/',allFile[i] )
   data <- read.csv(filepath)
   for( j in 1:12 ){
     command <- paste0(zodiac[j],'[,i]<-data[,j+1]')

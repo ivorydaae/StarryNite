@@ -14,15 +14,15 @@ factor <- c('Love','Finance','Career')
 shinyUI(fluidPage(
   
   # Application title
-  titlePanel("Daily Horoscope"),
+  titlePanel("星座運勢趨勢圖"),
 
   # Sidebar with a slider input for number of bins
   sidebarLayout(
     sidebarPanel(
       selectInput(
-        "zodiac","Choose the zodiac",zodiac
+        "zodiac","選擇一個星座",zodiac
       ),
-      selectInput("factor","Select",factor
+      selectInput("factor","選擇運勢類型",factor
       )
     ),
     

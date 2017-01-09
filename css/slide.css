@@ -1,5 +1,6 @@
 #slide{
-    margin: 200px auto;
+    margin: 20px auto;
+    margin-bottom: 200px;
 }
 #slide > div {
     width: 80vw;

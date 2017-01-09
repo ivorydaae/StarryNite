@@ -109,7 +109,7 @@ h3, .h03, h4, .h04 {
 	margin-bottom: 1.8rem;
 }
 h5, .h05, h6, .h06 {
-	font-family: "raleway-heavy";
+	font-family: "Noto Sans CJK TC Bold";
 	margin-bottom: 1.2rem;
 }
 
@@ -154,7 +154,7 @@ p img {
 	margin: 0;
 }
 p.lead {
-	font-family: "merriweather-light", serif;
+	font-family: "Noto Sans CJK TC Medium", serif;
 	font-size: 1.8rem;
 	line-height: 1.8;
 	color: #737373;
@@ -727,7 +727,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	position: relative;
 }
 .section-intro h1 {
-	font-family: "merriweather-bold", serif;
+		font-family:"Noto Sans CJK TC Bold", serif;
 	font-size: 4.8rem;
 	color: #252525;
 	line-height: 1.25;
@@ -2595,5 +2595,21 @@ footer ul li {
 }
 #irish{
 	overflow: hidden;
+}
+p {
+	font-family: "Noto Sans CJK TC Regular";
+}
+.tell{
+	font-family:"Noto Sans CJK TC Bold";
+}
+h2{
+	text-align: center;
+	color:rgba(70, 70, 70, 1);
+}
+#cloud{
+	height: 200px;
+	padding-left: 200px;
+	padding-right: 200px;
+
 }
 /*# sourceMappingURL=main.css.map */
